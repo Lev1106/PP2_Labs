@@ -24,7 +24,6 @@ def average_by_list(movies):
 	average = sum / count
 	return average
 
-
 # 5
 def average_by_category(category_name):
 	categorized_movies = movies_by_category(category_name)

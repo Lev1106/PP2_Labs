@@ -63,14 +63,13 @@ class Account:
 			print(f"Not enough balance, maximum value is {self.balance}!")
 
 # 6
-def check_prime(number):
+def check_prime(number): # Same as in functions1
 	if number < 2:
 		return False
 	for divisor in range(2, number):
 		if number % divisor == 0:
 			return False
 	return True
-
 def filter_prime_2(numbers):
 	prime_numbers = list(filter(lambda number: check_prime(number), numbers))
 	return prime_numbers
