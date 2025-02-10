@@ -1,1 +1,1 @@
-Laboratory works on Programming Principles II. Beloussov Lev
+[Laboratory works on Programming Principles II](https://github.com/NikitaUssyukin/programming-principles-2). Beloussov Lev
