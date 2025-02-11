@@ -2,19 +2,19 @@ from date import *
 import math, datetime
 
 # 1
-def squares(N):
+def squares1(N):
 	for i in range(N + 1):
 		yield i * i
 
 # 2
 def even_numbers(N):
-	for i in range(N + 1);
+	for i in range(N + 1):
 		if i % 2 == 0:
 			yield i
 
 # 3
 def divisible_by_3_and_4(N):
-	for i in range(N + 1);
+	for i in range(N + 1):
 		if i % 3 == 0 and i % 4 == 0:
 			yield i
 
